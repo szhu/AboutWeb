@@ -1,3 +1,6 @@
-#!/bin/bash
+#!/usr/bin/true
+
 # Mac OS app executables must be at least 28 bytes for some reason.
 # This text makes the file longer than 28 bytes. Nice!
+
+# Also, using /usr/bin/true because nothing really needs to happen, lol.
