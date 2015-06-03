@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+mkdir -p AboutWeb2.app
+cp -Rp AboutWeb.app/Contents AboutWeb2.app/
+rm -rf AboutWeb.app
+mv AboutWeb2.app AboutWeb.app
